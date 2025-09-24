@@ -1,0 +1,44 @@
+/*
+Author: Md Shaidul Islam
+Date: 2025-09-24
+*/
+
+body {
+  background-color: #dbf9ed;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #3e9ae0;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: #783a3a;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+p {
+  color: #0a7a68;
+}
+
+ul {
+  list-style-type: square;
+  color: #0a7a68;
+  margin-left: 20px;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  color: #0a7a68;
+  margin-left: 20px;
+}
+
+a {
+  color: #0066cc;
+  font-weight: bold;
+}
