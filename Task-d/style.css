@@ -40,10 +40,10 @@ p {
   border-radius: 8px;
 }
 
-#message {
+#special-message {
   color: rgb(92, 54, 61);
   font-weight: bold;
-  background-color: #ffe6e6;
+  background-color: #442222;
   padding: 8px;
   border-radius: 4px;
   display: inline-block;
@@ -54,16 +54,14 @@ h1, h2, h3 {
   margin-top: 20px;
 }
 
-.content .info ul {
+section ul li {
   padding-left: 20px;
-}
-
-.content .info ul li {
-  color: rgb(46, 38, 167);
+  color: rgb(141, 7, 7);
   list-style-type: square;
   margin-left: 10px;
   margin-bottom: 6px;
 }
+
 
 a[target="_blank"] {
   color: rgb(214, 53, 25);
