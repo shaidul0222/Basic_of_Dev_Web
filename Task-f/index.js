@@ -1,6 +1,6 @@
 /*
-Author: Ville Heikkiniemi
-Date: 2025-10-06
+AAuthor: Md Shaidul Islam
+Date: 2025-10-29
 Description: Handles Add Row behavior for Weekly Timetable
 */
 
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
     newRow.appendChild(courseCell);
 
     // Define days in same order as header
-    const days = ["Tue", "Fri"];
+    const days = ["Mon","Tue","Wed","Thu","Fri"];
     days.forEach((day) => {
       const cell = document.createElement("td");
       cell.textContent = checkedDays.includes(day) ? "✅" : "❌";
